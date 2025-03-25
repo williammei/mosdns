@@ -4,7 +4,9 @@ on:
   push:
     tags:
       - 'v*'
-
+  label:
+    types:
+      - created
 jobs:
 
   build-release:
